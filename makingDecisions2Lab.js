@@ -60,10 +60,13 @@ let evensArr = []
 //   console.log(evensArr)
 // }
 
-// for(let i = 0; i < nums.length; i++){
-//   if()
-// }
+for(let i = 0; i < nums.length; i++){
+  if(nums[i] % 2 === 0){
+    evensArr.push(nums[i])
+  }
+}
 
+console.log(evensArr)
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
